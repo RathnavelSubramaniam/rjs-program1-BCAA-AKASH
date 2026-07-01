@@ -3,7 +3,8 @@
  * @param {number} num - The number to check.
  * @returns {boolean} True if prime, false otherwise.
  */
-const isPrime = (num) => { if (num <= 1){
+const isPrime = (num) => {
+    if (num <= 1){
     return false;
   }
   for(let i=2;i<num;i++){
